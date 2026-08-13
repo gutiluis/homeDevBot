@@ -27,4 +27,3 @@ A clear and concise description of what you expected to happen.
 If applicable, paste the terminal output or stack trace here:
 ```bash
 # Paste logs here
-
