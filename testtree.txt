@@ -1,7 +1,0 @@
-.
-|-- agent.py
-|-- bot.py
-|-- test_agent.py
-`-- testtree.txt
-
-1 directory, 4 files
