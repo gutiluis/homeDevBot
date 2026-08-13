@@ -40,17 +40,8 @@ The project is designed to keep the AI workload local rather than relying on a h
 
 ---
 
-## Setup and Running
+## How it works
 
-### Prerequisites
-
-Before running `homeDevBot`, install:
-
-* Python 3.11
-* Git
-* Ollama
-* A Discord application configured for **User Install**
-* A compatible local language model available through Ollama
 
 ### 1. Clone the Repository
 
@@ -194,12 +185,12 @@ Because `homeDevBot` is a local-development project, the bot only needs to be ru
 
 ## Tech Stack
 
-| **Python 3.11.9**
-| **discord.py 2.7.1**
-| **Supercog Agentic**
-| **Ollama**
-| **python-dotenv**
-| **Git / GitHub**
+- Python 3.11.9
+- discord.py
+- Supercog Agentic
+- Ollama
+- python-dotenv
+- Git / GitHub
 
 
 `bot.py` handles the Discord application interface, while `agent.py` contains the agent logic. This separation allows the AI component to be tested independently from Discord.
