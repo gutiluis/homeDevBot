@@ -1,0 +1,3 @@
+agentic-framework @ git+https://github.com/supercog-ai/agentic.git@b3aa3837df26853a186dc607f7f0b511a8141c91
+discord.py==2.7.1
+python-dotenv==1.2.2
