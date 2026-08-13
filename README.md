@@ -192,9 +192,6 @@ Because `homeDevBot` is a local-development project, the bot only needs to be ru
 - python-dotenv
 - Git / GitHub
 
-
-`bot.py` handles the Discord application interface, while `agent.py` contains the agent logic. This separation allows the AI component to be tested independently from Discord.
-
 ---
 
 ## Contributing
