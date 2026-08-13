@@ -1,11 +1,11 @@
 # dependabot inegration to testing branch and direct CI implementation
 version: 2
 updates:
-  - package-ecosystem: "docker"
-    directory: "/docker"
+  - package-ecosystem: "python"
+    directory: "/"
     schedule:
       interval: "weekly"
     # change after to main
-    target-branch: "testing" # This routes the PRs directly to your testing branch. not the main which is default under security and quality
+    target-branch: "main" # This routes the PRs directly to your testing branch. not the main which is default under security and quality
     allow:
       - dependency-type: "direct"
