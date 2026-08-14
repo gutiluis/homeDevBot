@@ -1,11 +1,12 @@
-# dependabot inegration to testing branch and direct CI implementation
 version: 2
+
 updates:
-  - package-ecosystem: "python"
-    directory: "/"
+  - package-ecosystem: pip
+    directory: /
     schedule:
-      interval: "weekly"
-    # change after to main
-    target-branch: "main" # This routes the PRs directly to your testing branch. not the main which is default under security and quality
-    allow:
-      - dependency-type: "direct"
+      interval: weekly
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
